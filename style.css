@@ -29,7 +29,6 @@ body {
   color: #aaaaaa;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
   font-size: 12px;
 }
 
@@ -809,4 +808,27 @@ body {
   font-style: italic;
   font-size: 14px;
   box-sizing: border-box;
+}
+
+@media (max-width: 1519px) {
+  /* Blog */
+  .blog_inner_item_info_text {
+    width: 330px;
+  }
+
+  /* Map */
+  .map_logo {
+    top: 180px;
+    left: 740px;
+  }
+}
+
+@media (max-width: 990px) {
+  body {
+    /* width: 1178px; */
+  }
+  /* Main page */
+  .main_page {
+    overflow: hidden;
+  }
 }
