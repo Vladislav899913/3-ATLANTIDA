@@ -262,6 +262,7 @@ body {
 .services_achieves {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .services_item {
@@ -824,11 +825,77 @@ body {
 }
 
 @media (max-width: 990px) {
-  body {
-    /* width: 1178px; */
+  /* .main_suptitle {
+    font-size: 12px;
+    margin-bottom: 10px;
   }
+
+  .main_title {
+    font-size: 35px;
+  } */
+
+  .container {
+    max-width: 900px;
+  }
+
   /* Main page */
-  .main_page {
+  .main_button_arrow {
+    position: absolute;
+    top: 36px;
+    left: 444px;
+  }
+
+  /* About_us */
+  .about_us_container {
+    width: 900px;
+    overflow: hidden;
+    height: 700px;
+  }
+
+  .about_us_inner_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .about_us_inner_line {
+    margin-bottom: 20px;
+  }
+
+  .about_us_inner_text {
+    width: 833px;
+  }
+
+  .buttons {
+    margin: 20px 0;
+  }
+
+  /* Services */
+  .services {
+    padding-bottom: 55px;
+  }
+
+  .services_achieves {
+    justify-content: space-evenly;
+  }
+
+  .services_item {
+    width: 400px;
+    margin-bottom: 30px;
+  }
+
+  .services_item_title {
+    margin: 15px 0;
+  }
+
+  .services_item_text {
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 23px;
+    font-size: 14px;
+  }
+
+  /* History */
+  .history {
     overflow: hidden;
   }
 }
