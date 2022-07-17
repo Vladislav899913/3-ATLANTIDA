@@ -292,12 +292,13 @@ body {
 
 /* History */
 .history {
-  height: 1490px;
+  background-color: #ededed;
+  padding-bottom: 83px;
 }
 
 .history_inner {
   background: url(/assets/images/history.png) no-repeat;
-  height: 1300px;
+  height: 1177px;
   position: relative;
 }
 
@@ -318,12 +319,12 @@ body {
 }
 
 .history_inner_item_3 {
-  top: 390px;
+  top: 380px;
 }
 
 .history_inner_item_4 {
   color: #fff;
-  top: 435px;
+  top: 420px;
   left: 620px;
 }
 
@@ -340,19 +341,23 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
 }
 
 .history_inner_item_date {
   font-family: "Montserrat", sans-serif;
   margin-bottom: 25px;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .history_inner_item_text {
   font-family: "Crimson Text", serif;
-  font-size: 12px;
+  font-size: 14px;
   width: 476px;
+  letter-spacing: 1px;
 }
 
 /* Our team */
@@ -424,6 +429,10 @@ body {
   background-color: #fff;
 }
 
+.portfolio_inner {
+  padding-bottom: 11px;
+}
+
 .portfolio_works {
   display: flex;
   /* flex-wrap: wrap; */
@@ -491,12 +500,11 @@ body {
 .vstavka {
   height: 180px;
   background-color: #2d2d2f;
-  align-items: center;
 }
 
 .vstavka_inner {
   display: flex;
-  padding-top: 40px;
+  padding-top: 38px;
   align-items: center;
 }
 
@@ -552,30 +560,37 @@ body {
 .blog_inner_item_info_text {
   margin: 0 auto;
   margin-top: 50px;
-  width: 290px;
+  width: 390px;
   height: 330px;
 }
 
 .blog_inner_item_info_date {
   font-family: "Crimson Text", serif;
   font-style: italic;
-  font-size: 12px;
+  font-size: 13px;
   width: 155px;
   border-bottom: 1px solid #454545;
   padding-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.blog_arrow {
+  margin-bottom: 2px;
 }
 
 .blog_inner_item_info_name {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 20px;
   margin-bottom: 38px;
+  letter-spacing: 1px;
 }
 
 .blog_inner_item_info_description {
   font-family: "Crimson Text", serif;
   color: #8d8d8d;
-  font-size: 14px;
+  font-size: 15px;
+  letter-spacing: 2px;
 }
 
 /* Clients */
@@ -610,6 +625,15 @@ body {
   margin: 0 auto;
   border-radius: 50%;
   overflow: hidden;
+}
+
+.cite_left_symbol {
+  vertical-align: 5px;
+}
+
+.cite_right_symbol {
+  vertical-align: -15px;
+  margin-left: 8px;
 }
 
 .cite_text {
@@ -664,18 +688,18 @@ body {
 
 /* Footer */
 .footer {
-  height: 637px;
   background: url(/assets/images/footer_bg.jpg) center no-repeat;
   background-size: cover;
 }
 
 .footer_logo {
-  padding: 35px 0;
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
 
 .footer_inner {
   display: flex;
-  padding-bottom: 58px;
+  padding-bottom: 60px;
   border-bottom: 1px solid #3e3e3e;
 }
 
@@ -687,11 +711,11 @@ body {
   color: #7f7f7f;
   font-family: "Crimson Text", serif;
   letter-spacing: 2px;
-  margin-bottom: 30px;
 }
 
 .footer_inner_col_1_name {
-  margin-bottom: 20px;
+  margin-top: 35px;
+  margin-bottom: 25px;
   color: #e3e3e3;
   font-family: "Montserrat", sans-serif;
 }
@@ -700,13 +724,12 @@ body {
   color: #7f7f7f;
   font-family: "Crimson Text", serif;
   letter-spacing: 2px;
-  margin-bottom: 35px;
 }
 
 .footer_inner_col_1_email {
   color: #e3e3e3;
   font-family: "Montserrat", sans-serif;
-  margin-bottom: 35px;
+  margin: 35px 0;
   line-height: 1.5;
 }
 
@@ -720,16 +743,25 @@ body {
 }
 
 .footer_inner_col_2_input {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
   width: 350px;
   height: 55px;
   background-color: transparent;
   color: #e3e3e3;
-  font-size: 20px;
+  font-size: 15px;
+  letter-spacing: 1px;
   border: 1px solid #464646;
   padding-left: 22px;
+  outline: none;
+  transition: 0.5s;
 }
 
-::-webkit-input-placeholder {
+.footer_inner_col_2_input:focus {
+  box-shadow: 0 0 3px 1px;
+}
+
+.footer_inner_col_2_input::placeholder {
   color: #7f7f7f;
   font-family: "Crimson Text", serif;
   font-style: italic;
@@ -738,6 +770,8 @@ body {
 .input_message {
   width: 100%;
   height: 96px;
+  resize: none;
+  padding-top: 20px;
 }
 
 .grey {
@@ -755,10 +789,11 @@ body {
 }
 
 .footer_end {
-  padding-top: 20px;
+  padding: 40px 0;
   color: #7f7f7f;
   font-family: "Crimson Text", serif;
   letter-spacing: 2px;
   font-style: italic;
   font-size: 14px;
+  box-sizing: border-box;
 }
