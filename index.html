@@ -1,909 +1,1014 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ATLANTIDA</title>
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cinzel&family=Crimson+Text&family=Montserrat:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/9604e53826.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <nav class="nav">
-          <div class="nav_logo">
-            <div class="logo">
-              <a href="#">
-                <img src="/assets/images/main_logo.jpg" alt="" />
-              </a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ATLANTIDA</title>
+        <link rel="stylesheet" href="styles/style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cinzel&family=Crimson+Text&family=Montserrat:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/9604e53826.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header_inner">
+                    <div class="nav_burger_icon" id="nav_burger_icon">
+                        <span class="icon_line"></span>
+                        <span class="icon_line"></span>
+                        <span class="icon_line"></span>
+                    </div>
+                    <a class="logo" href="#">
+                        <img src="images/header_logo.jpg" alt="" />
+                    </a>
+                    <nav class="nav" id="nav_links">
+                        <a class="nav_link active" href="#">Home</a>
+                        <a class="nav_link" href="#">About</a>
+                        <a class="nav_link" href="#">Services</a>
+                        <a class="nav_link" href="#">History</a>
+                        <a class="nav_link" href="#">Team</a>
+                        <a class="nav_link" href="#">Portfolio</a>
+                        <a class="nav_link" href="#">Prices</a>
+                        <a class="nav_link" href="#">Blog</a>
+                        <a class="nav_link" href="#">Contact</a>
+                    </nav>
+                    <div class="social_icons">
+                        <a class="social_icon" href="#">
+                            <i class="fa-brands fa-vk"></i>
+                        </a>
+                        <a class="social_icon" href="#"
+                            ><i class="fa-brands fa-twitter"></i
+                        ></a>
+                        <a class="social_icon" href="#"
+                            ><i class="fa-brands fa-pinterest"></i
+                        ></a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="nav_links">
-            <a class="nav_links_item" href="#">Home</a>
-            <a class="nav_links_item" href="#">About</a>
-            <a class="nav_links_item" href="#">Services</a>
-            <a class="nav_links_item" href="#">History</a>
-            <a class="nav_links_item" href="#">Team</a>
-            <a class="nav_links_item" href="#">Portfolio</a>
-            <a class="nav_links_item" href="#">Prices</a>
-            <a class="nav_links_item" href="#">Blog</a>
-            <a class="nav_links_item" href="#">Contact</a>
-          </div>
-          <div class="social">
-            <a class="social_item" href="#">
-              <i class="fa-brands fa-vk"></i>
+            <div class="nav_burger" id="nav_burger"></div>
+        </header>
+        <div class="intro">
+            <div class="container">
+                <div class="intro_wrap">
+                    <div class="intro_inner">
+                        <div class="intro_slider">
+                            <a class="slider" href="#">
+                                <img src="images/slider_left.png" alt="" />
+                            </a>
+                            <div class="intro_inner_content">
+                                <h3 class="slider_suptitle">
+                                    Design studio and Digital Agency
+                                </h3>
+                                <img
+                                    class="slider_line"
+                                    src="images/intro_line.png"
+                                    alt=""
+                                />
+                                <h2 class="slider_title">We are Atlantida</h2>
+                                <img
+                                    class="slider_line"
+                                    src="images/intro_line.png"
+                                    alt=""
+                                />
+                            </div>
+                            <a class="slider" href="#">
+                                <img src="images/slider_right.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="button_container">
+                            <a href="#about">
+                                <button class="button">Get Started</button>
+                            </a>
+                            <img
+                                draggable="false"
+                                class="button_arrow"
+                                src="images/btn_arrow.png"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <div class="container">
+                <div class="about_inner">
+                    <img class="about_img" src="images/about.jpg" alt="" />
+                    <div class="about_inner_content">
+                        <div class="about_title">About us</div>
+                        <img
+                            class="about_line"
+                            src="images/about_line.png"
+                            alt=""
+                        />
+                        <p class="about_text">
+                            Donec aliquet, ipsum ut lobortis facilisis, nisi
+                            ligula aliquam odio, ut vehicula odio lorem in erat.
+                            Quisque quam ipsum, commodo non condimentum a,
+                            fermentum id sapien. Pellentesque sit amet sem
+                            neque. Maecenas est enim, sollicitudin sit amet nisi
+                            vel, mattis efficitur sapien. Nulla lobortis dui in
+                            aliquam placerat. Maecenas commodo odio nec neque
+                            imperdiet sagittis. Fusce mauris tellus, vulputate
+                            id finibus a, rutrum et justo. Vivamus at eros sed
+                            justo laoreet mattis vulputate vel magna. Sed quis
+                            pulvinar quam, et tempus purus. Fusce et nisi eget
+                            dui hendrerit iaculis. Cras volutpat augue tempor
+                            viverra tincidunt. Maecenas interdum scelerisque
+                            enim. Aenean interdum leo ac lectus gravida, id
+                            tincidunt sem finibus. Curabitur ac arcu blandit,
+                            tempus leo id, ultrices ante.
+                        </p>
+                        <div class="buttons">
+                            <a href="#">
+                                <button class="button button_black">
+                                    Contact us
+                                </button>
+                            </a>
+                            <a href="#">
+                                <button class="button button_black">
+                                    Portfolio
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="about_achieves">
+                    <div class="about_achieves_item">
+                        <img
+                            class="about_achieves_logo"
+                            src="images/about_logo_1.png"
+                            alt=""
+                        />
+                        <h6 class="about_achieves_title">Awards<br />winner</h6>
+                        <p class="about_achieves_count">54</p>
+                    </div>
+                    <div class="about_achieves_item">
+                        <img
+                            class="about_achieves_logo"
+                            src="images/about_logo_2.png"
+                            alt=""
+                        />
+
+                        <h6 class="about_achieves_title">Jobs<br />done</h6>
+                        <p class="about_achieves_count">1054</p>
+                    </div>
+                    <div class="about_achieves_item">
+                        <img
+                            class="about_achieves_logo"
+                            src="images/about_logo_3.png"
+                            alt=""
+                        />
+
+                        <h6 class="about_achieves_title">Happy<br />clients</h6>
+                        <p class="about_achieves_count">120</p>
+                    </div>
+                    <div class="about_achieves_item">
+                        <img
+                            class="about_achieves_logo"
+                            src="images/about_logo_4.png"
+                            alt=""
+                        />
+                        <h6 class="about_achieves_title">
+                            Reviews<br />recieved
+                        </h6>
+                        <p class="about_achieves_count">54</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="services">
+            <div class="container">
+                <div class="services_inner">
+                    <div class="header_titles">
+                        <div class="header_titles_title">Services</div>
+                        <div class="header_titles_line">
+                            <img src="images/services_line.png" alt="" />
+                        </div>
+                        <div class="header_titles_text">
+                            Donec aliquet, ipsum ut lobortis facilisis, nisi
+                            ligula aliquam odio, ut vehicula odio lorem in erat.
+                            Quisque quam ipsum, commodo non condimentum a,
+                            fermentum id sapien. Pellentesque sit amet sem
+                            neque.
+                        </div>
+                    </div>
+                    <div class="services_achieves">
+                        <div class="services_item">
+                            <div class="services_logo">
+                                <img src="images/services/1.png" alt="" />
+                            </div>
+                            <div class="services_item_title">
+                                GRAPHIC<br />DESIGN
+                            </div>
+                            <div class="services_item_text">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Phasellus sed ipsum pulvinar,
+                                consequat ipsum non, sodales augue. Donec
+                                dapibus ipsum rutrum congue egestas. Curabitur
+                                fringilla tortor non aliquam congue. Class
+                                aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos.
+                            </div>
+                        </div>
+                        <div class="services_item">
+                            <div class="services_logo">
+                                <img src="images/services/2.png" alt="" />
+                            </div>
+                            <div class="services_item_title">
+                                WEBSITE<br />DESIGN
+                            </div>
+                            <div class="services_item_text">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Phasellus sed ipsum pulvinar,
+                                consequat ipsum non, sodales augue. Donec
+                                dapibus ipsum rutrum congue egestas. Curabitur
+                                fringilla tortor non aliquam congue. Class
+                                aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos.
+                            </div>
+                        </div>
+                        <div class="services_item">
+                            <div class="services_logo">
+                                <img src="images/services/3.png" alt="" />
+                            </div>
+                            <div class="services_item_title">
+                                SEO &<br />ANALITYCS
+                            </div>
+                            <div class="services_item_text">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Phasellus sed ipsum pulvinar,
+                                consequat ipsum non, sodales augue. Donec
+                                dapibus ipsum rutrum congue egestas. Curabitur
+                                fringilla tortor non aliquam congue. Class
+                                aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos.
+                            </div>
+                        </div>
+                        <div class="services_item">
+                            <div class="services_logo">
+                                <img src="images/services/4.png" alt="" />
+                            </div>
+                            <div class="services_item_title">
+                                WORDPRESS<br />PROGRAMING
+                            </div>
+                            <div class="services_item_text">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Phasellus sed ipsum pulvinar,
+                                consequat ipsum non, sodales augue. Donec
+                                dapibus ipsum rutrum congue egestas. Curabitur
+                                fringilla tortor non aliquam congue. Class
+                                aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="history">
+            <div class="container">
+                <div class="header_titles black">
+                    <div class="header_titles_title black">History</div>
+                    <div class="header_titles_line">
+                        <img src="images/our_team_line.png" alt="" />
+                    </div>
+                    <div class="header_titles_text black">
+                        In pulvinar, mi at rhoncus condimentum, turpis nisl
+                        scelerisque turpis, ut gravida eros tortor non arcu. In
+                        eget arcu ante. Curabitur lacinia ultricies ante, eget
+                        mattis orci vestibulum sit amet.
+                    </div>
+                </div>
+                <div class="history_inner">
+                    <div class="history_inner_item history_inner_item_1">
+                        <div class="history_inner_item_name">
+                            Donec id lobortis tellus. Maecenas vel dignissim
+                        </div>
+                        <div class="history_inner_item_date">
+                            07 October 2015
+                        </div>
+                        <div class="history_inner_item_text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Phasellus sed ipsum pulvinar, consequat ipsum
+                            non, sodales augue. Donec dapibus ipsum rutrum
+                            congue egestas. Curabitur fringilla tortor non
+                            aliquam congue. Class aptent taciti sociosqu ad
+                            litora torquent per conubia nostra, per inceptos
+                            himenaeos.
+                        </div>
+                    </div>
+                    <div class="history_inner_item history_inner_item_2">
+                        <div class="history_inner_item_name">
+                            Nam tincidunt, lacus sit amet ultrices
+                        </div>
+                        <div class="history_inner_item_date">05 June 2015</div>
+                        <div class="history_inner_item_text">
+                            In pulvinar, mi at rhoncus condimentum, turpis nisl
+                            scelerisque turpis, ut gravida eros tortor non arcu.
+                            In eget arcu ante. Curabitur lacinia ultricies ante,
+                            eget mattis orci vestibulum sit amet. Donec quis
+                            faucibus lorem.
+                        </div>
+                    </div>
+                    <div class="history_inner_item history_inner_item_3">
+                        <div class="history_inner_item_name">
+                            Donec quis faucibus lorem
+                        </div>
+                        <div class="history_inner_item_date">07 May 2015</div>
+                        <div class="history_inner_item_text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Phasellus sed ipsum pulvinar, consequat ipsum
+                            non, sodales augue. Donec dapibus ipsum rutrum
+                            congue egestas. Curabitur fringilla tortor non
+                            aliquam congue. Class aptent taciti sociosqu ad
+                            litora torquent per conubia nostra, per inceptos
+                            himenaeos.
+                        </div>
+                    </div>
+                    <div class="history_inner_item history_inner_item_4">
+                        <div class="history_inner_item_name">
+                            Nunc efficitur laoreet turpis sed auctor.
+                        </div>
+                        <div class="history_inner_item_date">02 April 2015</div>
+                        <div class="history_inner_item_text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Phasellus sed ipsum pulvinar, consequat ipsum
+                            non, sodales augue. Donec dapibus ipsum rutrum
+                            congue egestas. Curabitur fringilla tortor non
+                            aliquam congue. Class aptent taciti sociosqu ad
+                            litora torquent per conubia nostra, per inceptos
+                            himenaeos.
+                            <br /><br />
+                            Praesent id augue in risus molestie euismod molestie
+                            id augue. Suspendisse a libero porttitor, lobortis
+                            eros ac, varius velit. Praesent sed eros at elit
+                            suscipit laoreet vitae condimentum risus.
+                        </div>
+                    </div>
+                    <div class="history_inner_item history_inner_item_5">
+                        <div class="history_inner_item_name">
+                            Donec id lobortis tellus. Maecenas vel dignissim
+                        </div>
+                        <div class="history_inner_item_date">
+                            07 October 2015
+                        </div>
+                        <div class="history_inner_item_text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Phasellus sed ipsum pulvinar, consequat ipsum
+                            non, sodales augue. Donec dapibus ipsum rutrum
+                            congue egestas. Curabitur fringilla tortor non
+                            aliquam congue. Class aptent taciti sociosqu ad
+                            litora torquent per conubia nostra, per inceptos
+                            himenaeos.
+                        </div>
+                    </div>
+                    <div class="history_inner_item history_inner_item_6">
+                        <div class="history_inner_item_name">
+                            Nam tincidunt, lacus sit amet ultrices
+                        </div>
+                        <div class="history_inner_item_date">05 June 2015</div>
+                        <div class="history_inner_item_text">
+                            In pulvinar, mi at rhoncus condimentum, turpis nisl
+                            scelerisque turpis, ut gravida eros tortor non arcu.
+                            In eget arcu ante. Curabitur lacinia ultricies ante,
+                            eget mattis orci vestibulum sit amet. Donec quis
+                            faucibus lorem.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="our_team">
+            <div class="container">
+                <div class="header_titles black">
+                    <div class="header_titles_title black">Our team</div>
+                    <div class="header_titles_line">
+                        <img src="images/our_team_line.png" alt="" />
+                    </div>
+                    <div class="header_titles_text black">
+                        Nullam lobortis, turpis lobortis placerat vehicula,
+                        ipsum lacus bibendum dolor, sit amet pretium odio magna
+                        eget risus. Phasellus iaculis ultricies duiNullam
+                        lobortis, turpis lobortis placerat vehicula, ipsum lacus
+                        bibendum dolor, sit amet pretium odio magna eget risus.
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="team_item">
+                        <div>
+                            <img
+                                class="team_item_img"
+                                src="images/our_team_1.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="team_info">
+                            <div class="team_info_inner">
+                                <div class="team_info_text">
+                                    <div class="team_info_name">
+                                        Igor Vareniev
+                                    </div>
+                                    <div class="team_info_profession">Man</div>
+                                </div>
+                                <div class="social">
+                                    <a
+                                        class="social_item social_black"
+                                        href="#"
+                                    >
+                                        <i class="fa-brands fa-vk"></i>
+                                    </a>
+                                    <a class="social_item social_black" href="#"
+                                        ><i class="fa-brands fa-twitter"></i
+                                    ></a>
+                                    <a class="social_item social_black" href="#"
+                                        ><i class="fa-brands fa-pinterest"></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team_item">
+                        <div>
+                            <img
+                                class="team_item_img"
+                                src="images/our_team_2.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="team_info">
+                            <div class="team_info_inner">
+                                <div class="team_info_text">
+                                    <div class="team_info_name">
+                                        Alania Ionovna
+                                    </div>
+                                    <div class="team_info_profession">
+                                        Woman
+                                    </div>
+                                </div>
+                                <div class="social">
+                                    <a
+                                        class="social_item social_black"
+                                        href="#"
+                                    >
+                                        <i class="fa-brands fa-vk"></i>
+                                    </a>
+                                    <a class="social_item social_black" href="#"
+                                        ><i class="fa-brands fa-twitter"></i
+                                    ></a>
+                                    <a class="social_item social_black" href="#"
+                                        ><i class="fa-brands fa-pinterest"></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team_item">
+                        <div>
+                            <img
+                                class="team_item_img"
+                                src="images/our_team_3.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="team_info">
+                            <div class="team_info_inner">
+                                <div class="team_info_text">
+                                    <div class="team_info_name">
+                                        Ivan Goronov
+                                    </div>
+                                    <div class="team_info_profession">Man</div>
+                                </div>
+                                <div class="social">
+                                    <a
+                                        class="social_item social_black"
+                                        href="#"
+                                    >
+                                        <i class="fa-brands fa-vk"></i>
+                                    </a>
+                                    <a class="social_item social_black" href="#"
+                                        ><i class="fa-brands fa-twitter"></i
+                                    ></a>
+                                    <a class="social_item social_black" href="#"
+                                        ><i class="fa-brands fa-pinterest"></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio">
+            <div class="container">
+                <div class="portfolio_inner">
+                    <div class="header_titles black">
+                        <div class="header_titles_title black">Portfolio</div>
+                        <div class="header_titles_line">
+                            <img src="images/our_team_line.png" alt="" />
+                        </div>
+                        <div class="header_titles_text black">
+                            Nullam lobortis, turpis lobortis placerat vehicula,
+                            ipsum lacus bibendum dolor, sit amet pretium odio
+                            magna eget risus. Phasellus iaculis ultricies
+                            duiNullam lobortis, turpis lobortis placerat
+                            vehicula, ipsum lacus bibendum dolor, sit amet
+                            pretium odio magna eget risus.
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn">ALL</button>
+                        <button class="btn">WEBSITE</button>
+                        <button class="btn">BROCHURES</button>
+                        <button class="btn">LOGOS</button>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio_works">
+                <div class="portfolio_works_col">
+                    <div class="portfolio_works_item">
+                        <img
+                            class="portfolio_works_item_image"
+                            src="images/works/1.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="portfolio_works_item">
+                        <img
+                            class="portfolio_works_item_image"
+                            src="images/works/2.jpg"
+                            alt=""
+                        />
+                    </div>
+                </div>
+                <div class="portfolio_works_col">
+                    <div class="portfolio_works_item">
+                        <img
+                            class="portfolio_works_item_image"
+                            src="images/works/3.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="portfolio_works_item">
+                        <img
+                            class="portfolio_works_item_image"
+                            src="images/works/4.jpg"
+                            alt=""
+                        />
+                    </div>
+                </div>
+                <div class="portfolio_works_col">
+                    <div class="portfolio_works_item">
+                        <img
+                            class="portfolio_works_item_image"
+                            src="images/works/5.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="portfolio_works_item">
+                        <img
+                            class="portfolio_works_item_image"
+                            src="images/works/6.jpg"
+                            alt=""
+                        />
+                    </div>
+                </div>
+                <div class="portfolio_works_col">
+                    <div class="portfolio_works_item">
+                        <img
+                            class="portfolio_works_item_image"
+                            src="images/works/7.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="portfolio_works_item">
+                        <img
+                            class="portfolio_works_item_image"
+                            src="images/works/8.jpg"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="prices">
+            <div class="container">
+                <div class="header_titles black">
+                    <div class="header_titles_title black">Prices</div>
+                    <div class="header_titles_line">
+                        <img src="images/our_team_line.png" alt="" />
+                    </div>
+                    <div class="header_titles_text black">
+                        Nullam lobortis, turpis lobortis placerat vehicula,
+                        ipsum lacus bibendum dolor, sit amet pretium odio magna
+                        eget risus. Phasellus iaculis ultricies duiNullam
+                        lobortis, turpis lobortis placerat vehicula, ipsum lacus
+                        bibendum dolor, sit amet pretium odio magna eget risus.
+                    </div>
+                </div>
+                <div class="prices_inner">
+                    <div class="prices_item">
+                        <div class="prices_item_name">Basic</div>
+                        <div class="prices_item_img">
+                            <img src="images/prices/1.png" alt="" />
+                        </div>
+                        <div class="prices_item_cost">
+                            <span class="dollar">$ </span>10
+                        </div>
+                        <div class="prices_item_text">
+                            <div class="prices_item_text_item">Full Access</div>
+                            <div class="prices_item_text_item">
+                                Unlimited Edition
+                            </div>
+                            <div class="prices_item_text_item">Full Backup</div>
+                            <div class="prices_item_text_item">
+                                Free Tea and Free Mockup
+                            </div>
+                            <div class="prices_item_text_item">
+                                SeveralPrices
+                            </div>
+                        </div>
+                        <button class="btn">Sign Up</button>
+                    </div>
+                    <div class="prices_item">
+                        <div class="prices_item_name">Advanced</div>
+                        <div class="prices_item_img">
+                            <img src="images/prices/1.png" alt="" />
+                        </div>
+                        <div class="prices_item_cost">
+                            <span class="dollar">$ </span>20
+                        </div>
+                        <div class="prices_item_text">
+                            <div class="prices_item_text_item">Full Access</div>
+                            <div class="prices_item_text_item">
+                                Unlimited Edition
+                            </div>
+                            <div class="prices_item_text_item">Full Backup</div>
+                            <div class="prices_item_text_item">
+                                Free Tea and Free Mockup
+                            </div>
+                            <div class="prices_item_text_item">
+                                SeveralPrices
+                            </div>
+                        </div>
+                        <button class="btn">Sign Up</button>
+                    </div>
+                    <div class="prices_item">
+                        <div class="prices_item_name">Pro</div>
+                        <div class="prices_item_img">
+                            <img src="images/prices/1.png" alt="" />
+                        </div>
+                        <div class="prices_item_cost">
+                            <span class="dollar">$ </span>30
+                        </div>
+                        <div class="prices_item_text">
+                            <div class="prices_item_text_item">Full Access</div>
+                            <div class="prices_item_text_item">
+                                Unlimited Edition
+                            </div>
+                            <div class="prices_item_text_item">Full Backup</div>
+                            <div class="prices_item_text_item">
+                                Free Tea and Free Mockup
+                            </div>
+                            <div class="prices_item_text_item">
+                                SeveralPrices
+                            </div>
+                        </div>
+                        <button class="btn">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="vstavka">
+            <div class="container">
+                <div class="vstavka_inner">
+                    <div class="vstavka_inner_logo">
+                        <img src="images/vstavka.png" alt="" />
+                    </div>
+                    <div class="vstavka_inner_text">
+                        <div class="vstavka_inner_text_name">
+                            Looking for a quality and affordable for your next
+                            project ?
+                        </div>
+                        <div class="vstavka_inner_text_description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Curabitur eu libero ut erat sodales finibus
+                            sed in dolor. Etiam iaculis, nibh a lobortis
+                            egestas, est urna sodales
+                        </div>
+                    </div>
+                    <button class="main_button">Purchase</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="blog">
+            <div class="container">
+                <div class="header_titles black">
+                    <div class="header_titles_title black">Blog</div>
+                    <div class="header_titles_line">
+                        <img src="images/our_team_line.png" alt="" />
+                    </div>
+                    <div class="header_titles_text black">
+                        Nullam lobortis, turpis lobortis placerat vehicula,
+                        ipsum lacus bibendum dolor, sit amet pretium odio magna
+                        eget risus. Phasellus iaculis ultricies duiNullam
+                        lobortis, turpis lobortis placerat vehicula, ipsum lacus
+                        bibendum dolor, sit amet pretium odio magna eget risus.
+                    </div>
+                </div>
+            </div>
+            <div class="blog_inner">
+                <div class="blog_inner_item">
+                    <div class="blog_inner_item_img">
+                        <img src="images/blog/1.jpg" alt="" />
+                    </div>
+                    <div class="blog_inner_item_info">
+                        <div class="blog_inner_item_info_text">
+                            <div class="blog_inner_item_info_date">
+                                14 Aug 2015 / By Admin
+                            </div>
+                            <div class="blog_inner_item_info_name">
+                                <img
+                                    class="blog_arrow"
+                                    src="images/blog/blog_arrow.png"
+                                    alt=""
+                                />
+                                Donec id lobortis tellus Maecenas.
+                            </div>
+                            <div class="blog_inner_item_info_description">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Phasellus sed ipsum pulvinar,
+                                consequat ipsum non, sodales augue. Donec
+                                dapibus ipsum rutrum congue egestas. Curabitur
+                                fringilla tortor non aliquam congue. Class
+                                aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos.
+                                Curabitur fringilla tortor non aliquam congue.
+                                Class aptent taciti sociosqu ad litora torquent
+                                per conubia nostra, per inceptos himenaeos.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog_inner_item">
+                    <div class="blog_inner_item_img">
+                        <img src="images/blog/2.jpg" alt="" />
+                    </div>
+                    <div class="blog_inner_item_info">
+                        <div class="blog_inner_item_info_text">
+                            <div class="blog_inner_item_info_date">
+                                14 Aug 2015 / By Admin
+                            </div>
+                            <div class="blog_inner_item_info_name">
+                                <img
+                                    class="blog_arrow"
+                                    src="images/blog/blog_arrow.png"
+                                    alt=""
+                                />
+                                Donec id lobortis tellus Maecenas.
+                            </div>
+                            <div class="blog_inner_item_info_description">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Phasellus sed ipsum pulvinar,
+                                consequat ipsum non, sodales augue. Donec
+                                dapibus ipsum rutrum congue egestas. Curabitur
+                                fringilla tortor non aliquam congue. Class
+                                aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos.
+                                Curabitur fringilla tortor non aliquam congue.
+                                Class aptent taciti sociosqu ad litora torquent
+                                per conubia nostra, per inceptos himenaeos.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog_inner_item">
+                    <div class="blog_inner_item_info">
+                        <div class="blog_inner_item_info_text">
+                            <div class="blog_inner_item_info_date">
+                                14 Aug 2015 / By Admin
+                            </div>
+                            <div class="blog_inner_item_info_name">
+                                <img
+                                    class="blog_arrow"
+                                    src="images/blog/blog_arrow.png"
+                                    alt=""
+                                />
+                                Donec id lobortis tellus Maecenas.
+                            </div>
+                            <div class="blog_inner_item_info_description">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Phasellus sed ipsum pulvinar,
+                                consequat ipsum non, sodales augue. Donec
+                                dapibus ipsum rutrum congue egestas. Curabitur
+                                fringilla tortor non aliquam congue. Class
+                                aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos.
+                                Curabitur fringilla tortor non aliquam congue.
+                                Class aptent taciti sociosqu ad litora torquent
+                                per conubia nostra, per inceptos himenaeos.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog_inner_item_img">
+                        <img src="images/blog/3.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="blog_inner_item">
+                    <div class="blog_inner_item_info">
+                        <div class="blog_inner_item_info_text">
+                            <div class="blog_inner_item_info_date">
+                                14 Aug 2015 / By Admin
+                            </div>
+                            <div class="blog_inner_item_info_name">
+                                <img
+                                    class="blog_arrow"
+                                    src="images/blog/blog_arrow.png"
+                                    alt=""
+                                />
+                                Donec id lobortis tellus Maecenas.
+                            </div>
+                            <div class="blog_inner_item_info_description">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Phasellus sed ipsum pulvinar,
+                                consequat ipsum non, sodales augue. Donec
+                                dapibus ipsum rutrum congue egestas. Curabitur
+                                fringilla tortor non aliquam congue. Class
+                                aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos.
+                                Curabitur fringilla tortor non aliquam congue.
+                                Class aptent taciti sociosqu ad litora torquent
+                                per conubia nostra, per inceptos himenaeos.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog_inner_item_img">
+                        <img src="images/blog/4.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clients">
+            <div class="container">
+                <div class="header_titles black">
+                    <div class="header_titles_title black">Clients</div>
+                    <div class="header_titles_line">
+                        <img src="images/our_team_line.png" alt="" />
+                    </div>
+                    <div class="header_titles_text black">
+                        Nullam lobortis, turpis lobortis placerat vehicula,
+                        ipsum lacus bibendum dolor, sit amet pretium odio magna
+                        eget risus. Phasellus iaculis ultricies duiNullam
+                        lobortis, turpis lobortis placerat vehicula, ipsum lacus
+                        bibendum dolor, sit amet pretium odio magna eget risus.
+                    </div>
+                </div>
+                <div class="clients_inner">
+                    <div class="clients_inner_item">
+                        <img src="images/clients/1.png" alt="" />
+                    </div>
+                    <div class="clients_inner_item">
+                        <img src="images/clients/2.png" alt="" />
+                    </div>
+                    <div class="clients_inner_item">
+                        <img src="images/clients/3.png" alt="" />
+                    </div>
+                    <div class="clients_inner_item">
+                        <img src="images/clients/4.png" alt="" />
+                    </div>
+                    <div class="clients_inner_item">
+                        <img src="images/clients/5.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cite">
+            <div class="container">
+                <div class="cite_inner">
+                    <div class="cite_avatar">
+                        <img src="images/avatar.jpg" alt="" />
+                    </div>
+                    <div class="cite_text">
+                        <img
+                            class="cite_left_symbol"
+                            src="images/cite_left_symbol_.jpg.png"
+                            alt=""
+                        />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur eu libero ut erat sodales finibus sed in
+                        dolor. Etiam iaculis, nibh a lobortis egestas, est urna
+                        sodales
+                        <img
+                            class="cite_right_symbol"
+                            src="images/cite_right_symbol_.jpg.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="cite_author">ALEXANDR PODVALNY</div>
+                    <div class="cite_author_profession">
+                        Free-PSD-Template.com Company
+                    </div>
+                    <div class="cite_sliders">
+                        <div class="cite_sliders_item"></div>
+                        <div class="cite_sliders_item"></div>
+                        <div class="cite_sliders_item active_slider"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="map">
+            <a href="https://yandex.ru/maps/-/CCUNfOSdgA" target="_blank">
+                <img class="map_logo" src="images/map_logo.png" alt="" />
             </a>
-            <a class="social_item" href="#"
-              ><i class="fa-brands fa-twitter"></i
-            ></a>
-            <a class="social_item" href="#"
-              ><i class="fa-brands fa-pinterest"></i
-            ></a>
-          </div>
-        </nav>
-      </div>
-      <div class="main_page">
-        <div class="container">
-          <div class="main_page_inner">
-            <div class="main_page_inner_item slider">
-              <a href="#">
-                <img src="/assets/images/slider_left.png" alt="" />
-              </a>
-            </div>
-            <div class="main_page_inner_item">
-              <div class="main_suptitle">Design studio and Digital Agency</div>
-              <img
-                class="main_line"
-                src="/assets/images/main_line.png"
-                alt=""
-              />
-              <div class="main_title">We are Atlantida</div>
-              <img
-                class="main_line"
-                src="/assets/images/main_line.png"
-                alt=""
-              />
-            </div>
-            <div class="main_page_inner_item slider">
-              <a href="#">
-                <img src="/assets/images/slider_right.png" alt="" />
-              </a>
-            </div>
-          </div>
-          <div class="main_button_middle">
-            <a href="#">
-              <button class="main_button">Get Started</button>
-            </a>
-            <img
-              class="main_button_arrow"
-              src="/assets/images/btn_arrow.png"
-              alt=""
-            />
-          </div>
         </div>
-      </div>
-    </header>
 
-    <div class="about_us">
-      <div class="container">
-        <div class="about_us_container">
-          <div class="about_us_img">
-            <img src="/assets/images/about_us.jpg" alt="" />
-          </div>
-          <div class="about_us_inner">
-            <div class="about_us_inner_title">About us</div>
-            <div class="about_us_inner_line">
-              <img src="/assets/images/about_us_line.png" alt="" />
-            </div>
-            <div class="about_us_inner_text">
-              Donec aliquet, ipsum ut lobortis facilisis, nisi ligula aliquam
-              odio, ut vehicula odio lorem in erat. Quisque quam ipsum, commodo
-              non condimentum a, fermentum id sapien. Pellentesque sit amet sem
-              neque. Maecenas est enim, sollicitudin sit amet nisi vel, mattis
-              efficitur sapien. Nulla lobortis dui in aliquam placerat. Maecenas
-              commodo odio nec neque imperdiet sagittis. Fusce mauris tellus,
-              vulputate id finibus a, rutrum et justo. Vivamus at eros sed justo
-              laoreet mattis vulputate vel magna. Sed quis pulvinar quam, et
-              tempus purus. Fusce et nisi eget dui hendrerit iaculis. Cras
-              volutpat augue tempor viverra tincidunt. Maecenas interdum
-              scelerisque enim. Aenean interdum leo ac lectus gravida, id
-              tincidunt sem finibus. Curabitur ac arcu blandit, tempus leo id,
-              ultrices ante.
-            </div>
-            <div class="buttons">
-              <button class="btn">Contact us</button>
-              <button class="btn">Portfolio</button>
-            </div>
-          </div>
-        </div>
-        <div class="about_us_achieves">
-          <div class="about_us_achieves_item">
-            <div class="about_us_achieves_item_logo">
-              <img src="/assets/images/about_us_logo_1.png" alt="" />
-            </div>
-            <div class="about_us_achieves_item_title">Awards<br />winner</div>
-            <div class="about_us_achieves_item_count">54</div>
-          </div>
-          <div class="about_us_achieves_item">
-            <div class="about_us_achieves_item_logo">
-              <img src="/assets/images/about_us_logo_2.png" alt="" />
-            </div>
-            <div class="about_us_achieves_item_title">Jobs<br />done</div>
-            <div class="about_us_achieves_item_count">1054</div>
-          </div>
-          <div class="about_us_achieves_item">
-            <div class="about_us_achieves_item_logo">
-              <img src="/assets/images/about_us_logo_3.png" alt="" />
-            </div>
-            <div class="about_us_achieves_item_title">Happy<br />clients</div>
-            <div class="about_us_achieves_item_count">120</div>
-          </div>
-          <div class="about_us_achieves_item">
-            <div class="about_us_achieves_item_logo">
-              <img src="/assets/images/about_us_logo_4.png" alt="" />
-            </div>
-            <div class="about_us_achieves_item_title">
-              Reviews<br />recieved
-            </div>
-            <div class="about_us_achieves_item_count">54</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="services">
-      <div class="container">
-        <div class="services_inner">
-          <div class="header_titles">
-            <div class="header_titles_title">Services</div>
-            <div class="header_titles_line">
-              <img src="/assets/images/services_line.png" alt="" />
-            </div>
-            <div class="header_titles_text">
-              Donec aliquet, ipsum ut lobortis facilisis, nisi ligula aliquam
-              odio, ut vehicula odio lorem in erat. Quisque quam ipsum, commodo
-              non condimentum a, fermentum id sapien. Pellentesque sit amet sem
-              neque.
-            </div>
-          </div>
-          <div class="services_achieves">
-            <div class="services_item">
-              <div class="services_logo">
-                <img src="/assets/images/services/1.png" alt="" />
-              </div>
-              <div class="services_item_title">GRAPHIC<br />DESIGN</div>
-              <div class="services_item_text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus sed ipsum pulvinar, consequat ipsum non, sodales
-                augue. Donec dapibus ipsum rutrum congue egestas. Curabitur
-                fringilla tortor non aliquam congue. Class aptent taciti
-                sociosqu ad litora torquent per conubia nostra, per inceptos
-                himenaeos.
-              </div>
-            </div>
-            <div class="services_item">
-              <div class="services_logo">
-                <img src="/assets/images/services/2.png" alt="" />
-              </div>
-              <div class="services_item_title">WEBSITE<br />DESIGN</div>
-              <div class="services_item_text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus sed ipsum pulvinar, consequat ipsum non, sodales
-                augue. Donec dapibus ipsum rutrum congue egestas. Curabitur
-                fringilla tortor non aliquam congue. Class aptent taciti
-                sociosqu ad litora torquent per conubia nostra, per inceptos
-                himenaeos.
-              </div>
-            </div>
-            <div class="services_item">
-              <div class="services_logo">
-                <img src="/assets/images/services/3.png" alt="" />
-              </div>
-              <div class="services_item_title">SEO &<br />ANALITYCS</div>
-              <div class="services_item_text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus sed ipsum pulvinar, consequat ipsum non, sodales
-                augue. Donec dapibus ipsum rutrum congue egestas. Curabitur
-                fringilla tortor non aliquam congue. Class aptent taciti
-                sociosqu ad litora torquent per conubia nostra, per inceptos
-                himenaeos.
-              </div>
-            </div>
-            <div class="services_item">
-              <div class="services_logo">
-                <img src="/assets/images/services/4.png" alt="" />
-              </div>
-              <div class="services_item_title">WORDPRESS<br />PROGRAMING</div>
-              <div class="services_item_text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus sed ipsum pulvinar, consequat ipsum non, sodales
-                augue. Donec dapibus ipsum rutrum congue egestas. Curabitur
-                fringilla tortor non aliquam congue. Class aptent taciti
-                sociosqu ad litora torquent per conubia nostra, per inceptos
-                himenaeos.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="history">
-      <div class="container">
-        <div class="header_titles black">
-          <div class="header_titles_title black">History</div>
-          <div class="header_titles_line">
-            <img src="/assets/images/our_team_line.png" alt="" />
-          </div>
-          <div class="header_titles_text black">
-            In pulvinar, mi at rhoncus condimentum, turpis nisl scelerisque
-            turpis, ut gravida eros tortor non arcu. In eget arcu ante.
-            Curabitur lacinia ultricies ante, eget mattis orci vestibulum sit
-            amet.
-          </div>
-        </div>
-        <div class="history_inner">
-          <div class="history_inner_item history_inner_item_1">
-            <div class="history_inner_item_name">
-              Donec id lobortis tellus. Maecenas vel dignissim
-            </div>
-            <div class="history_inner_item_date">07 October 2015</div>
-            <div class="history_inner_item_text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec
-              dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor
-              non aliquam congue. Class aptent taciti sociosqu ad litora
-              torquent per conubia nostra, per inceptos himenaeos.
-            </div>
-          </div>
-          <div class="history_inner_item history_inner_item_2">
-            <div class="history_inner_item_name">
-              Nam tincidunt, lacus sit amet ultrices
-            </div>
-            <div class="history_inner_item_date">05 June 2015</div>
-            <div class="history_inner_item_text">
-              In pulvinar, mi at rhoncus condimentum, turpis nisl scelerisque
-              turpis, ut gravida eros tortor non arcu. In eget arcu ante.
-              Curabitur lacinia ultricies ante, eget mattis orci vestibulum sit
-              amet. Donec quis faucibus lorem.
-            </div>
-          </div>
-          <div class="history_inner_item history_inner_item_3">
-            <div class="history_inner_item_name">Donec quis faucibus lorem</div>
-            <div class="history_inner_item_date">07 May 2015</div>
-            <div class="history_inner_item_text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec
-              dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor
-              non aliquam congue. Class aptent taciti sociosqu ad litora
-              torquent per conubia nostra, per inceptos himenaeos.
-            </div>
-          </div>
-          <div class="history_inner_item history_inner_item_4">
-            <div class="history_inner_item_name">
-              Nunc efficitur laoreet turpis sed auctor.
-            </div>
-            <div class="history_inner_item_date">02 April 2015</div>
-            <div class="history_inner_item_text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec
-              dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor
-              non aliquam congue. Class aptent taciti sociosqu ad litora
-              torquent per conubia nostra, per inceptos himenaeos.
-              <br /><br />
-              Praesent id augue in risus molestie euismod molestie id augue.
-              Suspendisse a libero porttitor, lobortis eros ac, varius velit.
-              Praesent sed eros at elit suscipit laoreet vitae condimentum
-              risus.
-            </div>
-          </div>
-          <div class="history_inner_item history_inner_item_5">
-            <div class="history_inner_item_name">
-              Donec id lobortis tellus. Maecenas vel dignissim
-            </div>
-            <div class="history_inner_item_date">07 October 2015</div>
-            <div class="history_inner_item_text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec
-              dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor
-              non aliquam congue. Class aptent taciti sociosqu ad litora
-              torquent per conubia nostra, per inceptos himenaeos.
-            </div>
-          </div>
-          <div class="history_inner_item history_inner_item_6">
-            <div class="history_inner_item_name">
-              Nam tincidunt, lacus sit amet ultrices
-            </div>
-            <div class="history_inner_item_date">05 June 2015</div>
-            <div class="history_inner_item_text">
-              In pulvinar, mi at rhoncus condimentum, turpis nisl scelerisque
-              turpis, ut gravida eros tortor non arcu. In eget arcu ante.
-              Curabitur lacinia ultricies ante, eget mattis orci vestibulum sit
-              amet. Donec quis faucibus lorem.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="our_team">
-      <div class="container">
-        <div class="header_titles black">
-          <div class="header_titles_title black">Our team</div>
-          <div class="header_titles_line">
-            <img src="/assets/images/our_team_line.png" alt="" />
-          </div>
-          <div class="header_titles_text black">
-            Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus
-            bibendum dolor, sit amet pretium odio magna eget risus. Phasellus
-            iaculis ultricies duiNullam lobortis, turpis lobortis placerat
-            vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna
-            eget risus.
-          </div>
-        </div>
-        <div class="team">
-          <div class="team_item">
-            <div>
-              <img
-                class="team_item_img"
-                src="/assets/images/our_team_1.jpg"
-                alt=""
-              />
-            </div>
-            <div class="team_info">
-              <div class="team_info_inner">
-                <div class="team_info_text">
-                  <div class="team_info_name">Igor Vareniev</div>
-                  <div class="team_info_profession">Man</div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_logo">
+                    <img src="images/footer_logo.png" alt="" />
                 </div>
-                <div class="social">
-                  <a class="social_item social_black" href="#">
-                    <i class="fa-brands fa-vk"></i>
-                  </a>
-                  <a class="social_item social_black" href="#"
-                    ><i class="fa-brands fa-twitter"></i
-                  ></a>
-                  <a class="social_item social_black" href="#"
-                    ><i class="fa-brands fa-pinterest"></i
-                  ></a>
+                <div class="footer_inner">
+                    <div class="footer_inner_col_1">
+                        <div class="footer_inner_col_1_text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Phasellus sed ipsum pulvinar, consequat ipsum
+                            non, sodales augue. Donec dapibus ipsum rutrum
+                            congue egestas. Curabitur fringilla tortor non
+                            aliquam congue. Class aptent taciti sociosqu ad
+                            litora torquent per conubia nostra.
+                        </div>
+                        <div class="footer_inner_col_1_name">
+                            ATLANTIDA STUDIO
+                        </div>
+                        <div class="footer_inner_col_1_address">
+                            Steven Bernson, Attorney at Law
+                            <br />
+                            1556 Broadway, suite 416
+                            <br />
+                            New York, NY, 10120, USA
+                        </div>
+                        <div class="footer_inner_col_1_email">
+                            E-mail: elegantflyers@gmail.com <br />
+                            +84 956 654 972
+                        </div>
+                        <div class="social">
+                            <a class="social_item" href="#">
+                                <i class="fa-brands fa-vk"></i>
+                            </a>
+                            <a class="social_item" href="#"
+                                ><i class="fa-brands fa-twitter"></i
+                            ></a>
+                            <a class="social_item" href="#"
+                                ><i class="fa-brands fa-pinterest"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="footer_inner_col_2">
+                        <input
+                            class="footer_inner_col_2_input"
+                            type="text"
+                            placeholder="Name*"
+                        />
+                        <input
+                            class="footer_inner_col_2_input"
+                            type="email"
+                            placeholder="E-mail*"
+                        />
+                        <input
+                            class="footer_inner_col_2_input"
+                            type="tel"
+                            placeholder="Telephone*"
+                        />
+                        <input
+                            class="footer_inner_col_2_input"
+                            type="text"
+                            placeholder="Website*"
+                        />
+                        <textarea
+                            class="footer_inner_col_2_input input_message"
+                            type="text"
+                            placeholder="Message*"
+                        ></textarea>
+                        <button class="btn grey">Submit</button>
+                    </div>
                 </div>
-              </div>
+                <div class="footer_end">Copyright © 2015 Atlantida Theme</div>
             </div>
-          </div>
-          <div class="team_item">
-            <div>
-              <img
-                class="team_item_img"
-                src="/assets/images/our_team_2.jpg"
-                alt=""
-              />
-            </div>
-            <div class="team_info">
-              <div class="team_info_inner">
-                <div class="team_info_text">
-                  <div class="team_info_name">Alania Ionovna</div>
-                  <div class="team_info_profession">Woman</div>
-                </div>
-                <div class="social">
-                  <a class="social_item social_black" href="#">
-                    <i class="fa-brands fa-vk"></i>
-                  </a>
-                  <a class="social_item social_black" href="#"
-                    ><i class="fa-brands fa-twitter"></i
-                  ></a>
-                  <a class="social_item social_black" href="#"
-                    ><i class="fa-brands fa-pinterest"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="team_item">
-            <div>
-              <img
-                class="team_item_img"
-                src="/assets/images/our_team_3.jpg"
-                alt=""
-              />
-            </div>
-            <div class="team_info">
-              <div class="team_info_inner">
-                <div class="team_info_text">
-                  <div class="team_info_name">Ivan Goronov</div>
-                  <div class="team_info_profession">Man</div>
-                </div>
-                <div class="social">
-                  <a class="social_item social_black" href="#">
-                    <i class="fa-brands fa-vk"></i>
-                  </a>
-                  <a class="social_item social_black" href="#"
-                    ><i class="fa-brands fa-twitter"></i
-                  ></a>
-                  <a class="social_item social_black" href="#"
-                    ><i class="fa-brands fa-pinterest"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="portfolio">
-      <div class="container">
-        <div class="portfolio_inner">
-          <div class="header_titles black">
-            <div class="header_titles_title black">Portfolio</div>
-            <div class="header_titles_line">
-              <img src="/assets/images/our_team_line.png" alt="" />
-            </div>
-            <div class="header_titles_text black">
-              Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus
-              bibendum dolor, sit amet pretium odio magna eget risus. Phasellus
-              iaculis ultricies duiNullam lobortis, turpis lobortis placerat
-              vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna
-              eget risus.
-            </div>
-          </div>
-          <div class="buttons">
-            <button class="btn">ALL</button>
-            <button class="btn">WEBSITE</button>
-            <button class="btn">BROCHURES</button>
-            <button class="btn">LOGOS</button>
-          </div>
-        </div>
-      </div>
-      <div class="portfolio_works">
-        <div class="portfolio_works_col">
-          <div class="portfolio_works_item">
-            <img
-              class="portfolio_works_item_image"
-              src="/assets/images/works/1.jpg"
-              alt=""
-            />
-          </div>
-          <div class="portfolio_works_item">
-            <img
-              class="portfolio_works_item_image"
-              src="/assets/images/works/2.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="portfolio_works_col">
-          <div class="portfolio_works_item">
-            <img
-              class="portfolio_works_item_image"
-              src="/assets/images/works/3.jpg"
-              alt=""
-            />
-          </div>
-          <div class="portfolio_works_item">
-            <img
-              class="portfolio_works_item_image"
-              src="/assets/images/works/4.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="portfolio_works_col">
-          <div class="portfolio_works_item">
-            <img
-              class="portfolio_works_item_image"
-              src="/assets/images/works/5.jpg"
-              alt=""
-            />
-          </div>
-          <div class="portfolio_works_item">
-            <img
-              class="portfolio_works_item_image"
-              src="/assets/images/works/6.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="portfolio_works_col">
-          <div class="portfolio_works_item">
-            <img
-              class="portfolio_works_item_image"
-              src="/assets/images/works/7.jpg"
-              alt=""
-            />
-          </div>
-          <div class="portfolio_works_item">
-            <img
-              class="portfolio_works_item_image"
-              src="/assets/images/works/8.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="prices">
-      <div class="container">
-        <div class="header_titles black">
-          <div class="header_titles_title black">Prices</div>
-          <div class="header_titles_line">
-            <img src="/assets/images/our_team_line.png" alt="" />
-          </div>
-          <div class="header_titles_text black">
-            Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus
-            bibendum dolor, sit amet pretium odio magna eget risus. Phasellus
-            iaculis ultricies duiNullam lobortis, turpis lobortis placerat
-            vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna
-            eget risus.
-          </div>
-        </div>
-        <div class="prices_inner">
-          <div class="prices_item">
-            <div class="prices_item_name">Basic</div>
-            <div class="prices_item_img">
-              <img src="/assets/images/prices/1.png" alt="" />
-            </div>
-            <div class="prices_item_cost"><span class="dollar">$ </span>10</div>
-            <div class="prices_item_text">
-              <div class="prices_item_text_item">Full Access</div>
-              <div class="prices_item_text_item">Unlimited Edition</div>
-              <div class="prices_item_text_item">Full Backup</div>
-              <div class="prices_item_text_item">Free Tea and Free Mockup</div>
-              <div class="prices_item_text_item">SeveralPrices</div>
-            </div>
-            <button class="btn">Sign Up</button>
-          </div>
-          <div class="prices_item">
-            <div class="prices_item_name">Advanced</div>
-            <div class="prices_item_img">
-              <img src="/assets/images/prices/1.png" alt="" />
-            </div>
-            <div class="prices_item_cost"><span class="dollar">$ </span>20</div>
-            <div class="prices_item_text">
-              <div class="prices_item_text_item">Full Access</div>
-              <div class="prices_item_text_item">Unlimited Edition</div>
-              <div class="prices_item_text_item">Full Backup</div>
-              <div class="prices_item_text_item">Free Tea and Free Mockup</div>
-              <div class="prices_item_text_item">SeveralPrices</div>
-            </div>
-            <button class="btn">Sign Up</button>
-          </div>
-          <div class="prices_item">
-            <div class="prices_item_name">Pro</div>
-            <div class="prices_item_img">
-              <img src="/assets/images/prices/1.png" alt="" />
-            </div>
-            <div class="prices_item_cost"><span class="dollar">$ </span>30</div>
-            <div class="prices_item_text">
-              <div class="prices_item_text_item">Full Access</div>
-              <div class="prices_item_text_item">Unlimited Edition</div>
-              <div class="prices_item_text_item">Full Backup</div>
-              <div class="prices_item_text_item">Free Tea and Free Mockup</div>
-              <div class="prices_item_text_item">SeveralPrices</div>
-            </div>
-            <button class="btn">Sign Up</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="vstavka">
-      <div class="container">
-        <div class="vstavka_inner">
-          <div class="vstavka_inner_logo">
-            <img src="/assets/images/vstavka.png" alt="" />
-          </div>
-          <div class="vstavka_inner_text">
-            <div class="vstavka_inner_text_name">
-              Looking for a quality and affordable for your next project ?
-            </div>
-            <div class="vstavka_inner_text_description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              eu libero ut erat sodales finibus sed in dolor. Etiam iaculis,
-              nibh a lobortis egestas, est urna sodales
-            </div>
-          </div>
-          <button class="main_button">Purchase</button>
-        </div>
-      </div>
-    </div>
-
-    <div class="blog">
-      <div class="container">
-        <div class="header_titles black">
-          <div class="header_titles_title black">Blog</div>
-          <div class="header_titles_line">
-            <img src="/assets/images/our_team_line.png" alt="" />
-          </div>
-          <div class="header_titles_text black">
-            Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus
-            bibendum dolor, sit amet pretium odio magna eget risus. Phasellus
-            iaculis ultricies duiNullam lobortis, turpis lobortis placerat
-            vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna
-            eget risus.
-          </div>
-        </div>
-      </div>
-      <div class="blog_inner">
-        <div class="blog_inner_item">
-          <div class="blog_inner_item_img">
-            <img src="/assets/images/blog/1.jpg" alt="" />
-          </div>
-          <div class="blog_inner_item_info">
-            <div class="blog_inner_item_info_text">
-              <div class="blog_inner_item_info_date">
-                14 Aug 2015 / By Admin
-              </div>
-              <div class="blog_inner_item_info_name">
-                <img
-                  class="blog_arrow"
-                  src="/assets/images/blog/blog_arrow.png"
-                  alt=""
-                />
-                Donec id lobortis tellus Maecenas.
-              </div>
-              <div class="blog_inner_item_info_description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus sed ipsum pulvinar, consequat ipsum non, sodales
-                augue. Donec dapibus ipsum rutrum congue egestas. Curabitur
-                fringilla tortor non aliquam congue. Class aptent taciti
-                sociosqu ad litora torquent per conubia nostra, per inceptos
-                himenaeos. Curabitur fringilla tortor non aliquam congue. Class
-                aptent taciti sociosqu ad litora torquent per conubia nostra,
-                per inceptos himenaeos.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="blog_inner_item">
-          <div class="blog_inner_item_img">
-            <img src="/assets/images/blog/2.jpg" alt="" />
-          </div>
-          <div class="blog_inner_item_info">
-            <div class="blog_inner_item_info_text">
-              <div class="blog_inner_item_info_date">
-                14 Aug 2015 / By Admin
-              </div>
-              <div class="blog_inner_item_info_name">
-                <img
-                  class="blog_arrow"
-                  src="/assets/images/blog/blog_arrow.png"
-                  alt=""
-                />
-                Donec id lobortis tellus Maecenas.
-              </div>
-              <div class="blog_inner_item_info_description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus sed ipsum pulvinar, consequat ipsum non, sodales
-                augue. Donec dapibus ipsum rutrum congue egestas. Curabitur
-                fringilla tortor non aliquam congue. Class aptent taciti
-                sociosqu ad litora torquent per conubia nostra, per inceptos
-                himenaeos. Curabitur fringilla tortor non aliquam congue. Class
-                aptent taciti sociosqu ad litora torquent per conubia nostra,
-                per inceptos himenaeos.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="blog_inner_item">
-          <div class="blog_inner_item_info">
-            <div class="blog_inner_item_info_text">
-              <div class="blog_inner_item_info_date">
-                14 Aug 2015 / By Admin
-              </div>
-              <div class="blog_inner_item_info_name">
-                <img
-                  class="blog_arrow"
-                  src="/assets/images/blog/blog_arrow.png"
-                  alt=""
-                />
-                Donec id lobortis tellus Maecenas.
-              </div>
-              <div class="blog_inner_item_info_description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus sed ipsum pulvinar, consequat ipsum non, sodales
-                augue. Donec dapibus ipsum rutrum congue egestas. Curabitur
-                fringilla tortor non aliquam congue. Class aptent taciti
-                sociosqu ad litora torquent per conubia nostra, per inceptos
-                himenaeos. Curabitur fringilla tortor non aliquam congue. Class
-                aptent taciti sociosqu ad litora torquent per conubia nostra,
-                per inceptos himenaeos.
-              </div>
-            </div>
-          </div>
-          <div class="blog_inner_item_img">
-            <img src="/assets/images/blog/3.jpg" alt="" />
-          </div>
-        </div>
-        <div class="blog_inner_item">
-          <div class="blog_inner_item_info">
-            <div class="blog_inner_item_info_text">
-              <div class="blog_inner_item_info_date">
-                14 Aug 2015 / By Admin
-              </div>
-              <div class="blog_inner_item_info_name">
-                <img
-                  class="blog_arrow"
-                  src="/assets/images/blog/blog_arrow.png"
-                  alt=""
-                />
-                Donec id lobortis tellus Maecenas.
-              </div>
-              <div class="blog_inner_item_info_description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus sed ipsum pulvinar, consequat ipsum non, sodales
-                augue. Donec dapibus ipsum rutrum congue egestas. Curabitur
-                fringilla tortor non aliquam congue. Class aptent taciti
-                sociosqu ad litora torquent per conubia nostra, per inceptos
-                himenaeos. Curabitur fringilla tortor non aliquam congue. Class
-                aptent taciti sociosqu ad litora torquent per conubia nostra,
-                per inceptos himenaeos.
-              </div>
-            </div>
-          </div>
-          <div class="blog_inner_item_img">
-            <img src="/assets/images/blog/4.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="clients">
-      <div class="container">
-        <div class="header_titles black">
-          <div class="header_titles_title black">Clients</div>
-          <div class="header_titles_line">
-            <img src="/assets/images/our_team_line.png" alt="" />
-          </div>
-          <div class="header_titles_text black">
-            Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus
-            bibendum dolor, sit amet pretium odio magna eget risus. Phasellus
-            iaculis ultricies duiNullam lobortis, turpis lobortis placerat
-            vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna
-            eget risus.
-          </div>
-        </div>
-        <div class="clients_inner">
-          <div class="clients_inner_item">
-            <img src="/assets/images/clients/1.png" alt="" />
-          </div>
-          <div class="clients_inner_item">
-            <img src="/assets/images/clients/2.png" alt="" />
-          </div>
-          <div class="clients_inner_item">
-            <img src="/assets/images/clients/3.png" alt="" />
-          </div>
-          <div class="clients_inner_item">
-            <img src="/assets/images/clients/4.png" alt="" />
-          </div>
-          <div class="clients_inner_item">
-            <img src="/assets/images/clients/5.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="cite">
-      <div class="container">
-        <div class="cite_inner">
-          <div class="cite_avatar">
-            <img src="/assets/images/avatar.jpg" alt="" />
-          </div>
-          <div class="cite_text">
-            <img
-              class="cite_left_symbol"
-              src="/assets/images/cite_left_symbol_.jpg.png"
-              alt=""
-            />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            eu libero ut erat sodales finibus sed in dolor. Etiam iaculis, nibh
-            a lobortis egestas, est urna sodales
-            <img
-              class="cite_right_symbol"
-              src="/assets/images/cite_right_symbol_.jpg.png"
-              alt=""
-            />
-          </div>
-          <div class="cite_author">ALEXANDR PODVALNY</div>
-          <div class="cite_author_profession">
-            Free-PSD-Template.com Company
-          </div>
-          <div class="cite_sliders">
-            <div class="cite_sliders_item"></div>
-            <div class="cite_sliders_item"></div>
-            <div class="cite_sliders_item active_slider"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="map">
-      <a href="https://yandex.ru/maps/-/CCUNfOSdgA" target="_blank">
-        <img class="map_logo" src="/assets/images/map_logo.png" alt="" />
-      </a>
-    </div>
-
-    <footer class="footer">
-      <div class="container">
-        <div class="footer_logo">
-          <img src="/assets/images/footer_logo.png" alt="" />
-        </div>
-        <div class="footer_inner">
-          <div class="footer_inner_col_1">
-            <div class="footer_inner_col_1_text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec
-              dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor
-              non aliquam congue. Class aptent taciti sociosqu ad litora
-              torquent per conubia nostra.
-            </div>
-            <div class="footer_inner_col_1_name">ATLANTIDA STUDIO</div>
-            <div class="footer_inner_col_1_address">
-              Steven Bernson, Attorney at Law
-              <br />
-              1556 Broadway, suite 416
-              <br />
-              New York, NY, 10120, USA
-            </div>
-            <div class="footer_inner_col_1_email">
-              E-mail: elegantflyers@gmail.com <br />
-              +84 956 654 972
-            </div>
-            <div class="social">
-              <a class="social_item" href="#">
-                <i class="fa-brands fa-vk"></i>
-              </a>
-              <a class="social_item" href="#"
-                ><i class="fa-brands fa-twitter"></i
-              ></a>
-              <a class="social_item" href="#"
-                ><i class="fa-brands fa-pinterest"></i
-              ></a>
-            </div>
-          </div>
-          <div class="footer_inner_col_2">
-            <input
-              class="footer_inner_col_2_input"
-              type="text"
-              placeholder="Name*"
-            />
-            <input
-              class="footer_inner_col_2_input"
-              type="email"
-              placeholder="E-mail*"
-            />
-            <input
-              class="footer_inner_col_2_input"
-              type="tel"
-              placeholder="Telephone*"
-            />
-            <input
-              class="footer_inner_col_2_input"
-              type="text"
-              placeholder="Website*"
-            />
-            <textarea
-              class="footer_inner_col_2_input input_message"
-              type="text"
-              placeholder="Message*"
-            ></textarea>
-            <button class="btn grey">Submit</button>
-          </div>
-        </div>
-        <div class="footer_end">Copyright © 2015 Atlantida Theme</div>
-      </div>
-    </footer>
-  </body>
+        </footer> -->
+        <script src="scripts/JavaScript.js"></script>
+    </body>
 </html>
