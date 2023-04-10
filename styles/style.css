@@ -1034,7 +1034,7 @@ a {
 
     /* BLOG */
     .blog {
-        padding: 50px 0;
+        padding-top: 50px;
     }
 
     .blog_inner_item {
